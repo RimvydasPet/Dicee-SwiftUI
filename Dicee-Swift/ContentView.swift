@@ -34,8 +34,6 @@ struct ContentView: View {
                         .font(.system(size: 50))
                         .foregroundColor(Color.white)
                         .padding(.horizontal)
-                       
-                        
                 }
                 .background(Color.red)
             }
@@ -54,7 +52,6 @@ struct DiceView: View {
             .padding()
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
